@@ -1,0 +1,15 @@
+.project {
+	text-align: center;
+	padding: 20px 0;
+	color: #7997a1;
+	cursor: default;
+}
+
+.project span {
+	font-size: 24px;
+}
+
+.project:hover {
+	background: #ADD8E6;
+	color: #fff;
+}

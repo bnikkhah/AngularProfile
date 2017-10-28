@@ -2,13 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Profile</title>
+  <title>Behnam Nikkhah Profile</title>
   <base href="/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body>
-  <app-root></app-root>
+<body class="light-blue">
+  <div id="made-with">
+    <span>Made with</span>
+    <img src="./assets/images/angular4.png" alt="Angular 4" title="Angular 4"/>
+  </div>
+	<div class="container white custom-scrollbar">
+		<app-root></app-root>
+	</div>
+  <div class="footer">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/bnikkhah/" target="_blank"><img src="./assets/images/in.png" alt="LinkedIn" title="LinkedIn" /></a></li>
+      <li><a href="https://github.com/bnikkhah" target="_blank"><img src="./assets/images/git.png" alt="GitHub" title="GitHub" /></a></li>
+      <li><a href="mailto:bnikkhah22@gmail.com"><img src="./assets/images/gmail.png" alt="Gmail" title="Gmail" /></a></li>
+    </ul>
+  </div>
 </body>
 </html>

@@ -1,0 +1,45 @@
+.project-detail-body {
+	text-align: center;
+}
+
+.project-detail-body h2{
+	text-transform: uppercase;
+	cursor: default;
+}
+
+.image-container {
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	transition: filter 200ms ease-in-out;
+	overflow-y: auto;
+}
+
+.image-container a {
+	cursor: default;
+}
+
+.image-description {
+	position: absolute;
+	color: #fff;
+	padding: 5px 10px;
+	opacity: 0;
+	top: 50%;
+	left: 50%;
+	background: #696969;
+	transform: translate(-50%, -50%);
+	transition: opacity 200ms ease-in-out;
+}
+
+.image-container:hover {
+	filter: grayscale(50%);
+}
+
+.image-container:hover .image-description {
+	opacity: 1;
+	transition-delay:500ms;
+}
+
+.image-container img {
+	max-width: 100%;
+}
