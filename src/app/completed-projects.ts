@@ -2,6 +2,8 @@ import { Project } from './project';
 
 var rewriteUrl = window.location.hostname === "bnikkhah.github.io"
 
+console.log(window.location.hostname);
+
 export const PROJECTS: Project[] = [
 	{
 		name: 'Jammming',
