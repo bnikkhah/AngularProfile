@@ -1,7 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-	overflow-y: hidden;
+	color: #7e7e7e;
+	background-image: url('./assets/images/nature-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .light-blue {
@@ -12,8 +16,19 @@ body {
 	background: #fff;
 }
 
+.white-transparent {
+	background: rgba(255, 255, 255, 0.7);
+}
+
 .light-gray-text {
-	color: #C0C0C0;
+	color: #939393;
+}
+
+.blur {
+	filter: blur(5px);
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 .container {
@@ -57,7 +72,7 @@ body {
 
 /* Footer */
 
-.footer{
+/*.footer{
 	position:absolute;
 	bottom:0;
 	left:0;
@@ -86,7 +101,7 @@ body {
 .footer img:hover{
 	opacity:1;
 	box-shadow:0px 0px 5px #b9c1f9;
-}
+}*/
 
 .custom-scrollbar::-webkit-scrollbar-track
 {
